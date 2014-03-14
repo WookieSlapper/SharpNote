@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpNote", "SharpNote\SharpNote.csproj", "{B7E384A4-FDD9-4AFB-8CBA-BF96011B3465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpNote.Tests", "SharpNote.Tests\SharpNote.Tests.csproj", "{63C71504-A06E-4556-A85F-0B5A4A89F3D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E384A4-FDD9-4AFB-8CBA-BF96011B3465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E384A4-FDD9-4AFB-8CBA-BF96011B3465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E384A4-FDD9-4AFB-8CBA-BF96011B3465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E384A4-FDD9-4AFB-8CBA-BF96011B3465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C71504-A06E-4556-A85F-0B5A4A89F3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C71504-A06E-4556-A85F-0B5A4A89F3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C71504-A06E-4556-A85F-0B5A4A89F3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C71504-A06E-4556-A85F-0B5A4A89F3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
