@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SharpNote.Domain
 {
-    public class Class1
+    interface IBlogMaker
     {
+        string CreateBlogPosts();
+        string EditBlogPosts();
     }
+
 }
