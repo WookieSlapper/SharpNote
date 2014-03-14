@@ -8,5 +8,8 @@ namespace ClassLibrary1.Entities
 {
     class Author
     {
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string Location { get; set; }
     }
 }
