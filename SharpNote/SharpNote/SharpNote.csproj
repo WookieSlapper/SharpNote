@@ -149,6 +149,16 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\SharpNote.Data.csproj">
+      <Project>{5c4caa20-100c-4ebf-862e-aef81c2e44cb}</Project>
+      <Name>SharpNote.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpNote.Domain\SharpNote.Domain.csproj">
+      <Project>{24d2de9c-cc54-40ff-a694-7caf5678291f}</Project>
+      <Name>SharpNote.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
